@@ -1,0 +1,16 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.idea/vcs.xml
+Sample/libs/
+clipphoto/libs/
+clipphoto/src/main/res/drawable/
+clipphoto/src/main/res/layout/
+libs/
+src/main/res/drawable/
+src/main/res/layout/
