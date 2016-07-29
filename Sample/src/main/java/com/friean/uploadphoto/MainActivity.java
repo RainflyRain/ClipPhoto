@@ -19,12 +19,13 @@ public class MainActivity extends AppCompatActivity {
     public static final int IMG_CUB = 1;
     public static final int IMG_CIRCLE = 2;
     public static final String IMG_TYPE = "TYPE";
+    private static String TITLE =  "Home";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getSupportActionBar().hide();
+        getSupportActionBar().setTitle(TITLE);
         photo = (ImageView) findViewById(R.id.photo_img);
     }
 
